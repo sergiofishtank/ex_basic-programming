@@ -4,26 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mokepon</title>
+    <script src="./js/mokepon.js"></script>
 </head>
 <body>
     <h1>MOKEPON! 🔥💧☘</h1>
 
     <section id="seleccionar-mascota"></section>
         <h2>Elige la mascota:</h2>
-        <label for="Hipodoge"></label>
+        <label for="hipodoge">Hipodoge</label>
         <input type="radio" name="mascota" id="hipodoge"/>
-        <label for="Capipepo"></label>
+        <label for="capipepo">Capipepo</label>
         <input type="radio" name="mascota" id="capipepo"/>
-        <label for="Ratigueya"></label>
+        <label for="ratigueya">Ratigueya</label>
         <input type="radio" name="mascota" id="ratigueya"/>
 
-        Hipodoge -> Agua<br>
-        Capipepo -> Tierra<br>
-        Ratigueya -> Fuego<br>
-        Langostelvis -> Agua y Fuego<br>
-        Tucapalma -> Agua y Tierra<br>
-        Pydos -> Tierra y Fuego<br>
-        <button>seleccionar</button>       
+        <button id="boton-mascota">seleccionar</button>       
         <!-- MASCOTAS -->
     <section id="seleccionar-ataque">
         <h2>Elige tu ataque:</h2>
@@ -31,9 +26,9 @@
         <p>Tu mascota tiene <span>3</span> vidas</p>
         <p>La mascota del enemigo tiene <span>3</span> vidas</p>
         <p>
-            <button>Fuego 🔥</button>
-            <button>Agua 💧</button>
-            <button>Tierra ☘</button>
+            <button id="boton-fuego">Fuego 🔥</button>
+            <button id="boton-agua">Agua 💧</button>
+            <button id="boton-tierra">Tierra ☘</button>
         </p>
     </section>
 
@@ -42,7 +37,7 @@
     </section>
 
     <section id="Reiniciar">
-        <button>Reiniciar</button>
+        <button id="boton-reiniciar">Reiniciar</button>
     </section>
     
 </body>
